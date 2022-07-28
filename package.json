@@ -1,0 +1,18 @@
+{
+	"name": "godsplan",
+	"version": "1.0.0",
+	"description": "Made with love for peepolaugh",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon ./index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@discordjs/rest": "^1.0.1",
+		"discord.js": "^14.0.3",
+		"dotenv": "^16.0.1",
+		"nodemon": "^2.0.19"
+	}
+}
