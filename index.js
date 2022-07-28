@@ -1,7 +1,6 @@
 require('dotenv').config();
-const { channel } = require('diagnostics_channel');
 const Discord = require('discord.js');
-const { guildId, channelId } = require('./config.json');
+const channelId = process.env.channelId;
 
 intents = new Discord.IntentsBitField([
 	Discord.IntentsBitField.Flags.GuildMessages,

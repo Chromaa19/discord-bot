@@ -1,6 +1,7 @@
 require('dotenv').config();
 const token = process.env.BOT_TOKEN;
-const { clientId, guildId } = require('./config.json');
+const clientId = process.env.clientId;
+const guildId = process.env.guildId;
 const { Routes } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const rest = new REST({ version: '10' }).setToken(token);

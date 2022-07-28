@@ -13,7 +13,7 @@ const commands = [
 		)
 ].map((command) => command.toJSON());
 
-addCommands(commands);
-// removeAllCommands()
+// addCommands(commands);
+removeAllCommands();
 // let commandId = 'kopiraj command id iz server settingsa'
-// removeSingleCommand(commandId)
+// removeSingleCommand('1002017682696196176');
